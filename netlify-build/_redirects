@@ -1,0 +1,6 @@
+# SPA routing - redirect all non-file requests to index.html
+/*    /index.html   200
+
+# API redirects for local storage fallback
+/api/*  /index.html  200
+/uploads/*  /uploads/:splat  200
