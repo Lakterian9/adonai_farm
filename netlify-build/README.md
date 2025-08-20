@@ -35,7 +35,7 @@ This is a complete build of the Adonai Farm website ready for Netlify deployment
 ├── index.html          # Main application
 ├── mobile-config.js    # Mobile detection and configuration
 ├── test-mode.html      # Mode switching utility
-├── uploads/Adonai/     # Farm images
+├── images/Adonai/     # Farm images
 ├── images/             # Fallback images
 ├── js/                 # Application JavaScript
 ├── css/                # Application styles

@@ -3,4 +3,4 @@
 
 # API redirects for local storage fallback
 /api/*  /index.html  200
-/uploads/*  /uploads/:splat  200
+/images/*  /images/:splat  200

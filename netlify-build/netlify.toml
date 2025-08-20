@@ -20,14 +20,14 @@
 
 # Static file serving with proper MIME types
 [[headers]]
-  for = "/uploads/Adonai/*"
+  for = "/images/Adonai/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Access-Control-Allow-Origin = "*"
     Content-Type = "image/*"
     
 [[headers]]
-  for = "/uploads/*"
+  for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Access-Control-Allow-Origin = "*"
